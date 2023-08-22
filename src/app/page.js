@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -5,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex flex-col box-border p-5 totalwidth">
       <h1 className="text-gray-200 pt-5 pb-12 font-medium text-7xl sm:text-9xl">
-        Hi I'm
+        Hi I&apos;m
         <br />
         Abhishek
       </h1>
@@ -22,7 +23,7 @@ export default function Home() {
       {/* work experience */}
       <h1 className="text-gray-200 text-3xl mt-8 mb-5 sm:text-4xl">Work experience</h1>
       <div className="flex">
-      <img src="/hungama.jpg" width={100} height={30}/>
+      <Image src="/hungama.jpg" width={100} height={30} alt="hungama"/>
       <div className="ml-3">
       <h1 className="text-gray-200 text-1xl sm:text-2xl">Hungama music private Ltd.</h1>
       <h2 className="text-gray-200 text-1xl sm:text-2xl">Software developer</h2>

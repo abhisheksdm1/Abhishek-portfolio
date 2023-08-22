@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function page() {
@@ -8,11 +9,11 @@ export default function page() {
         Unleashing the Power of React: Building Modern Web Applications
       </p>
       <div className="flex mt-5">
-        <img
+        <Image
           src="abhishek_passport_size_photo.jpeg"
           width={50}
-          style={{ height: "50px", borderRadius: "50%" }}
-        ></img>
+          style={{ height: "50px", borderRadius: "50%" }} alt="abhishek"
+        ></Image>
         <div className="ml-3">
           <h1 className="text-gray-200">Abhishek Kumar Singh</h1>
           <p className="text-slate-600">
@@ -24,14 +25,14 @@ export default function page() {
         In the realm of web development, creating dynamic, responsive, and
         user-friendly applications is the ultimate goal. Enter React, a
         JavaScript library that has taken the developer community by storm.
-        Whether you're a seasoned developer or just starting your coding
+        Whether youre a seasoned developer or just starting your coding
         journey, React offers a revolutionary approach to building modern web
-        applications. In this blog post, we'll delve into the world of React,
+        applications. In this blog post, we&apos;ll delve into the world of React,
         exploring its key features, benefits, and guiding you through the
         process of building your very own React application.
       </p>
       <br />
-      <p className="text-gray-200">Understanding React's Philosophy</p>
+      <p className="text-gray-200">Understanding React&apos;s Philosophy</p>
       <br />
       <p className="text-gray-200 ">
         At its core, React is all about making UI development efficient and
@@ -54,8 +55,8 @@ export default function page() {
           2.Virtual DOM and Efficient Rendering:
         </span>
         React introduces the concept of a virtual DOM, which is a lightweight
-        representation of the actual DOM. When there's a change in the
-        application's state, React compares the virtual DOM with the previous
+        representation of the actual DOM. When there&apos;s a change in the
+        application&apos;s state, React compares the virtual DOM with the previous
         version and updates the actual DOM only where necessary. This approach
         minimizes expensive reflows and enhances performance.
       </p>
@@ -83,20 +84,20 @@ export default function page() {
       <p className="text-gray-200 ">
         <span className=" text-1xl text-gray-500">5.Lifecycle Methods:</span>
         Lifecycle methods are functions that are called at different stages of a
-        component's lifecycle, such as when it's created, updated, or destroyed.
+        component&apos;s lifecycle, such as when it&apos;s created, updated, or destroyed.
       </p>
       <br />
       <p className="text-gray-200 ">
         <span className=" text-1xl text-gray-500">5.Lifecycle Methods:</span>
         Lifecycle methods are functions that are called at different stages of a
-        component's lifecycle, such as when it's created, updated, or destroyed.
+        component&apos;s lifecycle, such as when it&apos;s created, updated, or destroyed.
       </p>
       <br />
       <p className="text-gray-200">Advantages of Using React:</p>
       <br />
       <p className="text-gray-200 ">
         <span className=" text-1xl text-gray-500">1.Modular Development:</span>
-        React's component-based architecture promotes reusability, making it
+        React&apos;s component-based architecture promotes reusability, making it
         easier to manage and maintain your codebase.
       </p>
       <br />
@@ -175,10 +176,10 @@ export default function page() {
         introducing a component-based architecture and efficient rendering
         techniques. Its philosophy of reusability, declarative syntax, and
         virtual DOM empowers developers to build sophisticated web applications
-        with ease. By embracing React's principles and core concepts, you'll be
+        with ease. By embracing React&apos;s principles and core concepts, you&apos;ll be
         well on your way to creating interactive, responsive, and visually
-        appealing web applications that cater to the demands of today's digital
-        world. So, whether you're building a personal project or a large-scale
+        appealing web applications that cater to the demands of today&apos;s digital
+        world. So, whether you&apos;re building a personal project or a large-scale
         application, React is your gateway to a more efficient and enjoyable
         development journey.
       </p>
