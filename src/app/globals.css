@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background:#111827;
+
+}
+.totalwidth
+{
+  max-width: 1200px;
+}
+.container{
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+  color: #e5e7eb;
+  border-radius: 10px;
+}
+
+.b_radius
+{
+  border-radius: 50%;
+  height: 20px;
+}
+
+
+@media (max-width:640px) {
+  .linkin{
+    width: 24px;
+    height: 24px;
+  } 
+  .at{
+    width: 24px;
+    height: 24px;
+  }
+  .git{
+    width: 24px;
+    height: 24px;
+  }
+}
