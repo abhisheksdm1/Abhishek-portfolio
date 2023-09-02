@@ -93,7 +93,7 @@ export default function page() {
             ReactJS developer
           </h2>
           <h3 className="text-slate-600 sm:text-2xl">
-            <i>Sept 2021 - Feb 2022</i>
+            <i>June 2021 - Feb 2022</i>
           </h3>
         </div>
       </div>
@@ -112,7 +112,7 @@ export default function page() {
           </h1>
           <h2 className="text-gray-200 text-1xl sm:text-2xl">Mern Stack</h2>
           <h3 className="text-slate-600 sm:text-2xl">
-            <i>Sept 2020- Sept 2021</i>
+            <i>June 2020- Sept 2021</i>
           </h3>
         </div>
       </div>
