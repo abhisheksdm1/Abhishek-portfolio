@@ -12,8 +12,8 @@ export default function Home() {
       </h1>
       <p className="text-gray-200 text-1xl sm:text-2xl">
         2+ years of experience in buliding visually appealing web experience. I
-        mostly work with <span></span> React <span></span> Javascript{" "}
-        <span></span> nodeJS <span></span> MYSQL{" "} & Web tools.
+        mostly work with <span></span> React,<span></span> Javascript,{" "}
+        <span></span> nodeJS, <span></span> MYSQL{" "} & Web tools.
         <br/>
           <spna className="text-slate-600 sm:text-2xl">learm more</spna>
       </p>
